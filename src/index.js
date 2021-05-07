@@ -4,9 +4,10 @@ const app = express();
 const port = 3000;
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.send("post request only");
-});
+app.get("/", (req, res) => { 
+  res.header("Content-Type", "text/html") 
+  res.sendFile("./index.html", { root: __dirname });   
+}); 
 
 app.post("/", (req, res) => {
   res.header("Content-Type", "application/json"); 

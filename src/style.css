@@ -1,0 +1,16 @@
+:root {
+  --cotton-candy: #ffcbf2ff;
+  --mauve: #f3c4fbff;
+  --mauve-2: #ecbcfdff;
+  --mauve-3: #e5b3feff;
+  --mauve-4: #e2afffff;
+  --mauve-5: #deaaffff;
+  --mauve-6: #d8bbffff;
+  --lavender-blue: #d0d1ffff;
+  --uranian-blue: #c8e7ffff;
+  --celeste: #c0fdffff;
+}
+
+body {
+  background: var(--cotton-candy); 
+}
